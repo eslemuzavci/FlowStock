@@ -55,11 +55,11 @@ export default function ShelfTable() {
             <td className="px-3 py-2 align-top text-sm font-semibold text-gray-800 whitespace-nowrap">{label}</td>
             <td className="px-3 py-2">
                 {items.length ? (
-                    <div className="flex flex-wrap gap-2">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
                         {items.map((code) => (
                             <span
                                 key={code}
-                                className={`inline-flex items-center px-2 py-1 text-xs font-semibold rounded-md border ${badgeClasses}`}
+                                className={`flex items-center justify-center px-2 py-1 text-xs md:text-sm leading-tight font-medium rounded-md border text-center break-words ${badgeClasses}`}
                             >
                                 {code}
                             </span>
