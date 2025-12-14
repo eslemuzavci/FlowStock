@@ -172,7 +172,7 @@ export default function Filter() {
                         type="text"
                         value={productSearch}
                         onChange={(e) => setProductSearch(e.target.value)}
-                        placeholder="Ürün kodu veya adı giriniz..."
+                        placeholder="Ürün kodu veya adı"
                         className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                         onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
                     />
