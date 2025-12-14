@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # FlowStock
 
 FlowStock, depo ve stok yönetimi süreçlerini görselleştirmek amacıyla geliştirilmiş
@@ -96,4 +94,3 @@ Build çıktısı aşağıdaki klasörde oluşturulur:
 ````bash
 dist/
 ````
->>>>>>> 5a247f07c0056e5ec1ae955ee30769d8825a0a3a
