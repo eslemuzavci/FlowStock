@@ -1,0 +1,766 @@
+{
+    "stocks": [
+        {
+            "code": "WE",
+            "name": "Mal Kabul Alanı",
+            "coridor": null,
+            "column": null,
+            "level": null,
+            "capacity": 1000,
+            "used": 950,
+            "stocks": [
+                {
+                    "productCode": "M110",
+                    "productName": "Çift Kişilik Yaylı Yatak",
+                    "quantity": 8,
+                    "volume": 560
+                },
+                {
+                    "productCode": "M300",
+                    "productName": "Baza (Tek Kişilik)",
+                    "quantity": 3,
+                    "volume": 180
+                },
+                {
+                    "productCode": "M600",
+                    "productName": "Yazlık Pike",
+                    "quantity": 30,
+                    "volume": 210
+                }
+            ]
+        },
+        {
+            "code": "*",
+            "name": "İşlem",
+            "coridor": null,
+            "column": null,
+            "level": null,
+            "capacity": 500,
+            "used": 700,
+            "stocks": [
+                {
+                    "productCode": "M200",
+                    "productName": "Ortopedik Yastık",
+                    "quantity": 50,
+                    "volume": 400
+                },
+                {
+                    "productCode": "M500",
+                    "productName": "Kışlık Kalın Battaniye",
+                    "quantity": 20,
+                    "volume": 300
+                }
+            ]
+        },
+        {
+            "code": "A-1-1",
+            "name": "A-1-1",
+            "coridor": "A",
+            "column": 1,
+            "level": 1,
+            "capacity": 100,
+            "used": 0,
+            "stocks": []
+        },
+        {
+            "code": "A-1-2",
+            "name": "A-1-2",
+            "coridor": "A",
+            "column": 1,
+            "level": 2,
+            "capacity": 100,
+            "used": 21,
+            "stocks": [
+                {
+                    "productCode": "M600",
+                    "productName": "Yazlık Pike",
+                    "quantity": 3,
+                    "volume": 21
+                }
+            ]
+        },
+        {
+            "code": "A-1-3",
+            "name": "A-1-3",
+            "coridor": "A",
+            "column": 1,
+            "level": 3,
+            "capacity": 100,
+            "used": 90,
+            "stocks": [
+                {
+                    "productCode": "M400",
+                    "productName": "Yatak Başlığı",
+                    "quantity": 3,
+                    "volume": 90
+                }
+            ]
+        },
+        {
+            "code": "A-2-1",
+            "name": "A-2-1",
+            "coridor": "A",
+            "column": 2,
+            "level": 1,
+            "capacity": 100,
+            "used": 40,
+            "stocks": [
+                {
+                    "productCode": "M200",
+                    "productName": "Ortopedik Yastık",
+                    "quantity": 5,
+                    "volume": 40
+                }
+            ]
+        },
+        {
+            "code": "A-2-2",
+            "name": "A-2-2",
+            "coridor": "A",
+            "column": 2,
+            "level": 2,
+            "capacity": 100,
+            "used": 90,
+            "stocks": [
+                {
+                    "productCode": "M500",
+                    "productName": "Kışlık Kalın Battaniye",
+                    "quantity": 6,
+                    "volume": 15
+                }
+            ]
+        },
+        {
+            "code": "A-2-3",
+            "name": "A-2-3",
+            "coridor": "A",
+            "column": 2,
+            "level": 3,
+            "capacity": 100,
+            "used": 120,
+            "stocks": [
+                {
+                    "productCode": "M300",
+                    "productName": "Baza (Tek Kişilik)",
+                    "quantity": 2,
+                    "volume": 120
+                }
+            ]
+        },
+        {
+            "code": "A-3-1",
+            "name": "A-3-1",
+            "coridor": "A",
+            "column": 3,
+            "level": 1,
+            "capacity": 100,
+            "used": 14,
+            "stocks": [
+                {
+                    "productCode": "M600",
+                    "productName": "Yazlık Pike",
+                    "quantity": 2,
+                    "volume": 14
+                }
+            ]
+        },
+        {
+            "code": "A-3-2",
+            "name": "A-3-2",
+            "coridor": "A",
+            "column": 3,
+            "level": 2,
+            "capacity": 100,
+            "used": 75,
+            "stocks": [
+                {
+                    "productCode": "M500",
+                    "productName": "Kışlık Kalın Battaniye",
+                    "quantity": 5,
+                    "volume": 75
+                }
+            ]
+        },
+        {
+            "code": "A-3-3",
+            "name": "A-3-3",
+            "coridor": "A",
+            "column": 3,
+            "level": 3,
+            "capacity": 100,
+            "used": 80,
+            "stocks": [
+                {
+                    "productCode": "M100",
+                    "productName": "Tek Kişilik Yaylı Yatak",
+                    "quantity": 2,
+                    "volume": 80
+                }
+            ]
+        },
+        {
+            "code": "B-1-1",
+            "name": "B-1-1",
+            "coridor": "B",
+            "column": 1,
+            "level": 1,
+            "capacity": 100,
+            "used": 10,
+            "stocks": [
+                {
+                    "productCode": "M210",
+                    "productName": "Kuş Tüyü Yastık",
+                    "quantity": 1,
+                    "volume": 10
+                }
+            ]
+        },
+        {
+            "code": "B-1-2",
+            "name": "B-1-2",
+            "coridor": "B",
+            "column": 1,
+            "level": 2,
+            "capacity": 100,
+            "used": 60,
+            "stocks": [
+                {
+                    "productCode": "M400",
+                    "productName": "Yatak Başlığı",
+                    "quantity": 2,
+                    "volume": 60
+                }
+            ]
+        },
+        {
+            "code": "B-1-3",
+            "name": "B-1-3",
+            "coridor": "B",
+            "column": 1,
+            "level": 3,
+            "capacity": 100,
+            "used": 0,
+            "stocks": []
+        },
+        {
+            "code": "B-2-1",
+            "name": "B-2-1",
+            "coridor": "B",
+            "column": 2,
+            "level": 1,
+            "capacity": 100,
+            "used": 98,
+            "stocks": [
+                {
+                    "productCode": "M110",
+                    "productName": "Çift Kişilik Yaylı Yatak",
+                    "quantity": 1,
+                    "volume": 70
+                },
+                {
+                    "productCode": "M600",
+                    "productName": "Yazlık Pike",
+                    "quantity": 4,
+                    "volume": 28
+                }
+            ]
+        },
+        {
+            "code": "B-2-2",
+            "name": "B-2-2",
+            "coridor": "B",
+            "column": 2,
+            "level": 2,
+            "capacity": 100,
+            "used": 20,
+            "stocks": [
+                {
+                    "productCode": "M210",
+                    "productName": "Kuş Tüyü Yastık",
+                    "quantity": 2,
+                    "volume": 20
+                }
+            ]
+        },
+        {
+            "code": "B-2-3",
+            "name": "B-2-3",
+            "coridor": "B",
+            "column": 2,
+            "level": 3,
+            "capacity": 100,
+            "used": 100,
+            "stocks": [
+                {
+                    "productCode": "M310",
+                    "productName": "Baza (Çift Kişilik)",
+                    "quantity": 1,
+                    "volume": 100
+                }
+            ]
+        },
+        {
+            "code": "B-3-1",
+            "name": "B-3-1",
+            "coridor": "B",
+            "column": 3,
+            "level": 1,
+            "capacity": 100,
+            "used": 40,
+            "stocks": [
+                {
+                    "productCode": "M200",
+                    "productName": "Ortopedik Yastık",
+                    "quantity": 5,
+                    "volume": 40
+                }
+            ]
+        },
+        {
+            "code": "B-3-2",
+            "name": "B-3-2",
+            "coridor": "B",
+            "column": 3,
+            "level": 2,
+            "capacity": 100,
+            "used": 75,
+            "stocks": [
+                {
+                    "productCode": "M500",
+                    "productName": "Kışlık Kalın Battaniye",
+                    "quantity": 5,
+                    "volume": 75
+                }
+            ]
+        },
+        {
+            "code": "B-3-3",
+            "name": "B-3-3",
+            "coridor": "B",
+            "column": 3,
+            "level": 3,
+            "capacity": 100,
+            "used": 0,
+            "stocks": []
+        },
+        {
+            "code": "C-1-1",
+            "name": "C-1-1",
+            "coridor": "C",
+            "column": 1,
+            "level": 1,
+            "capacity": 100,
+            "used": 21,
+            "stocks": [
+                {
+                    "productCode": "M600",
+                    "productName": "Yazlık Pike",
+                    "quantity": 3,
+                    "volume": 21
+                }
+            ]
+        },
+        {
+            "code": "C-1-2",
+            "name": "C-1-2",
+            "coridor": "C",
+            "column": 1,
+            "level": 2,
+            "capacity": 100,
+            "used": 101,
+            "stocks": [
+                {
+                    "productCode": "M100",
+                    "productName": "Tek Kişilik Yaylı Yatak",
+                    "quantity": 2,
+                    "volume": 80
+                },
+                {
+                    "productCode": "M600",
+                    "productName": "Yazlık Pike",
+                    "quantity": 3,
+                    "volume": 21
+                }
+            ]
+        },
+        {
+            "code": "C-1-3",
+            "name": "C-1-3",
+            "coridor": "C",
+            "column": 1,
+            "level": 3,
+            "capacity": 100,
+            "used": 130,
+            "stocks": [
+                {
+                    "productCode": "M310",
+                    "productName": "Baza (Çift Kişilik)",
+                    "quantity": 1,
+                    "volume": 100
+                },
+                {
+                    "productCode": "M500",
+                    "productName": "Kışlık Kalın Battaniye",
+                    "quantity": 2,
+                    "volume": 30
+                }
+            ]
+        },
+        {
+            "code": "C-2-1",
+            "name": "C-2-1",
+            "coridor": "C",
+            "column": 2,
+            "level": 1,
+            "capacity": 100,
+            "used": 90,
+            "stocks": [
+                {
+                    "productCode": "M400",
+                    "productName": "Yatak Başlığı",
+                    "quantity": 3,
+                    "volume": 90
+                }
+            ]
+        },
+        {
+            "code": "C-2-2",
+            "name": "C-2-2",
+            "coridor": "C",
+            "column": 2,
+            "level": 2,
+            "capacity": 100,
+            "used": 16,
+            "stocks": [
+                {
+                    "productCode": "M200",
+                    "productName": "Ortopedik Yastık",
+                    "quantity": 2,
+                    "volume": 16
+                }
+            ]
+        },
+        {
+            "code": "C-2-3",
+            "name": "C-2-3",
+            "coridor": "C",
+            "column": 2,
+            "level": 3,
+            "capacity": 100,
+            "used": 0,
+            "stocks": []
+        },
+        {
+            "code": "C-3-1",
+            "name": "C-3-1",
+            "coridor": "C",
+            "column": 3,
+            "level": 1,
+            "capacity": 100,
+            "used": 60,
+            "stocks": [
+                {
+                    "productCode": "M500",
+                    "productName": "Kışlık Kalın Battaniye",
+                    "quantity": 4,
+                    "volume": 60
+                }
+            ]
+        },
+        {
+            "code": "C-3-2",
+            "name": "C-3-2",
+            "coridor": "C",
+            "column": 3,
+            "level": 2,
+            "capacity": 100,
+            "used": 7,
+            "stocks": [
+                {
+                    "productCode": "M600",
+                    "productName": "Yazlık Pike",
+                    "quantity": 1,
+                    "volume": 7
+                }
+            ]
+        },
+        {
+            "code": "C-3-3",
+            "name": "C-3-3",
+            "coridor": "C",
+            "column": 3,
+            "level": 3,
+            "capacity": 100,
+            "used": 120,
+            "stocks": [
+                {
+                    "productCode": "M300",
+                    "productName": "Baza (Tek Kişilik)",
+                    "quantity": 2,
+                    "volume": 120
+                }
+            ]
+        }
+    ],
+    "material": [
+        {
+            "productCode": "M100",
+            "productName": "Tek Kişilik Yaylı Yatak",
+            "totalQuantity": 4,
+            "volume": 40
+        },
+        {
+            "productCode": "M110",
+            "productName": "Çift Kişilik Yaylı Yatak",
+            "totalQuantity": 9,
+            "volume": 70
+        },
+        {
+            "productCode": "M200",
+            "productName": "Ortopedik Yastık",
+            "totalQuantity": 57,
+            "volume": 8
+        },
+        {
+            "productCode": "M210",
+            "productName": "Kuş Tüyü Yastık",
+            "totalQuantity": 3,
+            "volume": 10
+        },
+        {
+            "productCode": "M300",
+            "productName": "Baza (Tek Kişilik)",
+            "totalQuantity": 5,
+            "volume": 60
+        },
+        {
+            "productCode": "M310",
+            "productName": "Baza (Çift Kişilik)",
+            "totalQuantity": 2,
+            "volume": 100
+        },
+        {
+            "productCode": "M400",
+            "productName": "Yatak Başlığı",
+            "totalQuantity": 8,
+            "volume": 30
+        },
+        {
+            "productCode": "M500",
+            "productName": "Kışlık Kalın Battaniye",
+            "totalQuantity": 37,
+            "volume": 15
+        },
+        {
+            "productCode": "M600",
+            "productName": "Yazlık Pike",
+            "totalQuantity": 43,
+            "volume": 7
+        }
+    ],
+    "stockplaces": [
+        {
+            "code": "WE",
+            "name": "Mal Kabul Alanı",
+            "coridor": null,
+            "column": null,
+            "level": null
+        },
+        {
+            "code": "*",
+            "name": "İşlem",
+            "coridor": null,
+            "column": null,
+            "level": null
+        },
+        {
+            "code": "A-1-1",
+            "name": "A-1-1",
+            "coridor": "A",
+            "column": 1,
+            "level": 1
+        },
+        {
+            "code": "A-1-2",
+            "name": "A-1-2",
+            "coridor": "A",
+            "column": 1,
+            "level": 2
+        },
+        {
+            "code": "A-1-3",
+            "name": "A-1-3",
+            "coridor": "A",
+            "column": 1,
+            "level": 3
+        },
+        {
+            "code": "A-2-1",
+            "name": "A-2-1",
+            "coridor": "A",
+            "column": 2,
+            "level": 1
+        },
+        {
+            "code": "A-2-2",
+            "name": "A-2-2",
+            "coridor": "A",
+            "column": 2,
+            "level": 2
+        },
+        {
+            "code": "A-2-3",
+            "name": "A-2-3",
+            "coridor": "A",
+            "column": 2,
+            "level": 3
+        },
+        {
+            "code": "A-3-1",
+            "name": "A-3-1",
+            "coridor": "A",
+            "column": 3,
+            "level": 1
+        },
+        {
+            "code": "A-3-2",
+            "name": "A-3-2",
+            "coridor": "A",
+            "column": 3,
+            "level": 2
+        },
+        {
+            "code": "A-3-3",
+            "name": "A-3-3",
+            "coridor": "A",
+            "column": 3,
+            "level": 3
+        },
+        {
+            "code": "B-1-1",
+            "name": "B-1-1",
+            "coridor": "B",
+            "column": 1,
+            "level": 1
+        },
+        {
+            "code": "B-1-2",
+            "name": "B-1-2",
+            "coridor": "B",
+            "column": 1,
+            "level": 2
+        },
+        {
+            "code": "B-1-3",
+            "name": "B-1-3",
+            "coridor": "B",
+            "column": 1,
+            "level": 3
+        },
+        {
+            "code": "B-2-1",
+            "name": "B-2-1",
+            "coridor": "B",
+            "column": 2,
+            "level": 1
+        },
+        {
+            "code": "B-2-2",
+            "name": "B-2-2",
+            "coridor": "B",
+            "column": 2,
+            "level": 2
+        },
+        {
+            "code": "B-2-3",
+            "name": "B-2-3",
+            "coridor": "B",
+            "column": 2,
+            "level": 3
+        },
+        {
+            "code": "B-3-1",
+            "name": "B-3-1",
+            "coridor": "B",
+            "column": 3,
+            "level": 1
+        },
+        {
+            "code": "B-3-2",
+            "name": "B-3-2",
+            "coridor": "B",
+            "column": 3,
+            "level": 2
+        },
+        {
+            "code": "B-3-3",
+            "name": "B-3-3",
+            "coridor": "B",
+            "column": 3,
+            "level": 3
+        },
+        {
+            "code": "C-1-1",
+            "name": "C-1-1",
+            "coridor": "C",
+            "column": 1,
+            "level": 1
+        },
+        {
+            "code": "C-1-2",
+            "name": "C-1-2",
+            "coridor": "C",
+            "column": 1,
+            "level": 2
+        },
+        {
+            "code": "C-1-3",
+            "name": "C-1-3",
+            "coridor": "C",
+            "column": 1,
+            "level": 3
+        },
+        {
+            "code": "C-2-1",
+            "name": "C-2-1",
+            "coridor": "C",
+            "column": 2,
+            "level": 1
+        },
+        {
+            "code": "C-2-2",
+            "name": "C-2-2",
+            "coridor": "C",
+            "column": 2,
+            "level": 2
+        },
+        {
+            "code": "C-2-3",
+            "name": "C-2-3",
+            "coridor": "C",
+            "column": 2,
+            "level": 3
+        },
+        {
+            "code": "C-3-1",
+            "name": "C-3-1",
+            "coridor": "C",
+            "column": 3,
+            "level": 1
+        },
+        {
+            "code": "C-3-2",
+            "name": "C-3-2",
+            "coridor": "C",
+            "column": 3,
+            "level": 2
+        },
+        {
+            "code": "C-3-3",
+            "name": "C-3-3",
+            "coridor": "C",
+            "column": 3,
+            "level": 3
+        }
+    ]
+}
