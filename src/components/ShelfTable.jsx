@@ -87,7 +87,7 @@ export default function ShelfTable() {
                     </thead>
                     <tbody className="divide-y divide-gray-100 bg-white">
                         {renderRow("Boş (%0)", groups.Bos, "bg-emerald-50 text-emerald-700 border-emerald-200")}
-                        {renderRow("Taşmaya Yakın (%80-99)", groups.Yakin, "bg-amber-50 text-amber-700 border-amber-200")}
+                        {renderRow("Kritik (%80-99)", groups.Yakin, "bg-amber-50 text-amber-700 border-amber-200")}
                         {renderRow("Taşmış (%100+)", groups.Tasmis, "bg-red-50 text-red-700 border-red-200")}
                     </tbody>
                 </table>
